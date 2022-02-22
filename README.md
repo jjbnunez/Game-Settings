@@ -6,4 +6,6 @@ This repository exists to preserve config files for games that meet the followin
 * Games that sometimes modify config files programmatically in unpredictable ways
 * Games that do not store config files in the cloud
 
+The scripts used in this repo have filepaths specific to my personal game installation locations. They will not reflect yours in all likelihood.
+
 This repo is public so that I can easily share settings files with friends and acquaintances getting into the games I play.
