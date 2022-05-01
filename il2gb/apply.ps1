@@ -1,3 +1,3 @@
-$GameData = "D:\Steam Games\steamapps\common\IL-2 Sturmovik Battle of Stalingrad\data"
+. .\common.ps1
 
-Copy-Item ".\startup.cfg" "$GameData\startup.cfg"
+Copy-Item -Force ".\startup.cfg" "$GameData\startup.cfg"
