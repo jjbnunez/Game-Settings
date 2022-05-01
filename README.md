@@ -1,4 +1,3 @@
-
 # Game Settings
 
 This repository exists to preserve config files for games that meet the following criteria
