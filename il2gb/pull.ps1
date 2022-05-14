@@ -1,3 +1,3 @@
 . .\common.ps1
 
-Copy-Item -Force "$GameData\startup.cfg" ".\startup.cfg" 
+Copy-Item -Force "$DataDir\startup.cfg" ".\startup.cfg" 
