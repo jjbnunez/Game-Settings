@@ -13,5 +13,3 @@ if ($Type -eq "2d") {
 } elseif ($Type -eq "vr") {
 	Compare-Object (Get-Content $ScriptDir\startup_vr.cfg) (Get-Content $DataDir\startup.cfg)
 }
-
-Compare-Object (Get-Content $ScriptDir\openvr_mod.cfg) (Get-Content $GameDir\openvr_mod.cfg)
