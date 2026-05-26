@@ -1,0 +1,1335 @@
+{
+  "actions": [
+    {
+      "name": "/actions/Global/in/Safe_Mode",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Global/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/Global/in/SkeletonLeftHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Global/in/SkeletonRightHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/Global/in/HeadsetOnHead",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Menu",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Global/in/Quick_Menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Action_Menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Main_Menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Interact",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Global/in/Grab",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Global/in/Move",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/Global/in/Jump",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Global/in/Rotate",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/Global/in/Mic",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Toggle",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Stick_Click",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Trigger_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Grip_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Udon_Menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Drop",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Nameplates",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/HUD",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Chatbox",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Face_Mirror",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Personal_Mirror",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Personal_Mirror_Lock",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Earmuffs",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Camera",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Stream_Camera",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Avatar_Debug_Screen",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/OSC_Debug_Screen",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Confirm_FBT_Calibration",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Start_Move",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Start_Rotate",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Continue_Move",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Continue_Rotate",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/No_Gesture_After_Move",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/No_Gesture_After_Rotate",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Activator_Thumb",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Activator_Thumb_Inner_Upper",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Activator_Thumb_Inner_Lower",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Activator_Thumb_Outer",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Activator_Index",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Activator_Grip",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Trigger_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Grip_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Activator_Stick_Deflection",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Neutral_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Fist_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Open_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Peace_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Horns_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Finger_Gun_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Thumbs_Up_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Point_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Neutral_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Fist_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Open_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Peace_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Horns_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Finger_Gun_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Thumbs_Up_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Direct_Point_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Left",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Select_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Soft_Select_Left",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Weight_Left",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Direct_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Direct_Stay_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Cancel_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Cancel_Open_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Held_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Right",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Select_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Soft_Select_Right",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Weight_Right",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Direct_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Direct_Stay_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Cancel_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Cancel_Open_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Gesture_Wheel_Held_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Disable_Gesture_Tracked",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Disable_Gesture_Wheel_Move_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Disable_Gesture_Wheel_Rotate_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Disable_Gesture_Wheel_Move_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Disable_Gesture_Wheel_Rotate_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Physbone_Grab_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Physbone_Freeze_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Physbone_Grab_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Physbone_Freeze_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Global/in/Scroll",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/Global/out/Haptic",
+      "type": "vibration"
+    },
+    {
+      "name": "/actions/One_Hand/in/Interact",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/One_Hand/in/Grab",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/One_Hand/in/Move_Rotate",
+      "type": "vector2",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/One_Hand/in/Jump",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Mic",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Toggle",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Stick_Click",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Trigger_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Grip_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Udon_Menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Drop",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Start_Move_Rotate",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Continue_Move_Rotate",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/No_Gesture_After_Move_Rotate",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Nameplates",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/HUD",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Chatbox",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Face_Mirror",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Personal_Mirror",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Personal_Mirror_Lock",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Earmuffs",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Camera",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Stream_Camera",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Avatar_Debug_Screen",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/OSC_Debug_Screen",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Confirm_FBT_Calibration",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Activator_Thumb",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Activator_Thumb_Inner_Upper",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Activator_Thumb_Inner_Lower",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Activator_Thumb_Outer",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Activator_Index",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Activator_Grip",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Trigger_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Grip_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Activator_Stick_Deflection",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Left",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Select_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Soft_Select_Left",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Weight_Left",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Direct_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Direct_Stay_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Cancel_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Cancel_Open_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Held_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Right",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Select_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Soft_Select_Right",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Weight_Right",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Direct_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Direct_Stay_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Cancel_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Cancel_Open_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Gesture_Wheel_Held_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Disable_Gesture_Wheel_Move_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Disable_Gesture_Wheel_Rotate_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Disable_Gesture_Wheel_Move_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Disable_Gesture_Wheel_Rotate_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Reserve_bool",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Reserve_vector1",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/One_Hand/in/Reserve_vector2",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Menu/in/Confirm",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Menu/in/Back",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Menu/in/Tab",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Menu/in/Scroll",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/Menu/in/Quick_Menu_Close",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Menu/in/Drag",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Axis",
+      "type": "vector2",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Select",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Activator_Thumb",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Activator_Thumb_Inner_Upper",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Activator_Thumb_Inner_Lower",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Activator_Thumb_Outer",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Activator_Index",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Activator_Grip",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Trigger_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Grip_Axis",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Activator_Stick_Deflection",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Left",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Select_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Soft_Select_Left",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Weight_Left",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Direct_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Direct_Stay_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Open_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Held_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Right",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Select_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Soft_Select_Right",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Weight_Right",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Direct_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Direct_Stay_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Open_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Gesture_Wheel_Held_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Disable_Gesture_Wheel_Move_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Disable_Gesture_Wheel_Rotate_Left",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Disable_Gesture_Wheel_Move_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Disable_Gesture_Wheel_Rotate_Right",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Reserve_bool",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Reserve_vector1",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Reserve_vector2",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Grab",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Action_Menu/in/Drop",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Drone/in/Left_Joystick",
+      "type": "vector2",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Drone/in/Right_Joystick",
+      "type": "vector2",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/Drone/in/Self_Leveling_Mod",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Hold_Altitude_Mod",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Toggle_FPV",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Flip",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Take_Picture",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Cycle_Flight_Preset",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Toggle_Self_Leveling",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Respawn",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Select_Flight_Preset_Micro",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Select_Flight_Preset_Cinematic",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Select_Flight_Preset_Racing",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Drone/in/Select_Flight_Preset_Freestyle",
+      "type": "boolean"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/Global",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/One_Hand",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/Menu",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/Action_Menu",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/Drone",
+      "usage": "leftright"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller_advanced.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "bindings_holographic_controller.json"
+    },
+    {
+      "controller_type": "vive_cosmos_controller",
+      "binding_url": "bindings_vive_cosmos_controller.json"
+    },
+    {
+      "controller_type": "vive_focus3_controller",
+      "binding_url": "bindings_vive_focus3_controller.json"
+    },
+    {
+      "controller_type": "logitech_stylus",
+      "binding_url": "bindings_logitech_stylus.json"
+    },
+    {
+      "controller_type": "vive_tracker_camera",
+      "binding_url": "binding_vive_tracker_camera.json"
+    },
+    {
+      "controller_type": "hpmotioncontroller",
+      "binding_url": "application_generated_unity_vrchat_exe_binding_hpmotioncontroller.json"
+    },
+    {
+      "controller_type": "svl_hand_interaction_augmented",
+      "binding_url": "application_generated_unity_vrchat_exe_binding_svl_hand_interaction_augmented.json"
+    },
+    {
+      "controller_type": "vd_hand_controller",
+      "binding_url": "bindings_vd_hand_controller.json"
+    },
+    {
+      "controller_type": "generic_hmd",
+      "binding_url": "binding_generic_hmd.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/Global/in/Main_Menu": "Main Menu",
+      "/actions/Global/in/Action_Menu": "Action Menu",
+      "/actions/Global/in/Quick_Menu": "Quick Menu",
+      "/actions/Global/in/SkeletonLeftHand": "Left Hand Skeleton Data",
+      "/actions/Global/in/SkeletonRightHand": "Right Hand Skeleton Data",
+      "/actions/Global/in/Pose": "Pose Data",
+      "/actions/Global/in/Safe_Mode": "Activate Safe Mode",
+      "/actions/Global/in/Mic": "Toggle Microphone",
+      "/actions/Global/in/Gesture_Toggle": "Gesture Toggle",
+      "/actions/Global/in/Stick_Click": "Udon Stick Click",
+      "/actions/Global/in/Trigger_Axis": "Udon Trigger Axis",
+      "/actions/Global/in/Grip_Axis": "Udon Grip Axis",
+      "/actions/Global/in/Udon_Menu": "Udon Menu Button",
+      "/actions/Global/in/Drop": "Drop (enables Auto-Hold when bound)",
+      "/actions/Global/in/Nameplates": "Cycle Nameplate Mode",
+      "/actions/Global/in/HUD": "Toggle HUD",
+      "/actions/Global/in/Chatbox": "Open Chatbox",
+      "/actions/Global/in/Face_Mirror": "Toggle Face Mirror",
+      "/actions/Global/in/Personal_Mirror": "Toggle Personal Mirror",
+      "/actions/Global/in/Personal_Mirror_Lock": "Toggle Personal Mirror Grabbing",
+      "/actions/Global/in/Stream_Camera": "Open Stream Camera",
+      "/actions/Global/in/Earmuffs": "Toggle Earmuffs",
+      "/actions/Global/in/Camera": "Open Camera",
+      "/actions/Global/in/Avatar_Debug_Screen": "Toggle Avatar Debug Screen",
+      "/actions/Global/in/OSC_Debug_Screen": "Toggle OSC Debug Screen",
+      "/actions/Global/in/Confirm_FBT_Calibration": "Confirm FBT Calibration (use both triggers when not bound)",
+      "/actions/Global/in/Start_Move": "Start Move (Advanced)",
+      "/actions/Global/in/Start_Rotate": "Start Rotate (Advanced)",
+      "/actions/Global/in/Continue_Move": "Continue Move (Advanced)",
+      "/actions/Global/in/Continue_Rotate": "Continue Rotate (Advanced)",
+      "/actions/Global/in/No_Gesture_After_Move": "No Gesture After Move",
+      "/actions/Global/in/No_Gesture_After_Rotate": "No Gesture After Rotate",
+      "/actions/One_Hand/in/Move_Rotate": "Move & Rotate (One Handed)",
+      "/actions/One_Hand/in/Stick_Click": "Udon Stick Click",
+      "/actions/One_Hand/in/Gesture_Toggle": "Gesture Toggle",
+      "/actions/One_Hand/in/Mic": "Toggle Microphone",
+      "/actions/One_Hand/in/Trigger_Axis": "Udon Trigger Axis",
+      "/actions/One_Hand/in/Grip_Axis": "Udon Grip Axis",
+      "/actions/One_Hand/in/Udon_Menu": "Udon Menu",
+      "/actions/One_Hand/in/Drop": "Drop (enables Auto-Hold when bound)",
+      "/actions/One_Hand/in/Start_Move_Rotate": "Start Move & Rotate (Advanced)",
+      "/actions/One_Hand/in/Continue_Move_Rotate": "Continue Move & Rotate (Advanced)",
+      "/actions/One_Hand/in/No_Gesture_After_Move_Rotate": "No Gesture After Move & Rotate",
+      "/actions/One_Hand/in/Menu": "Menu (Combined)",
+      "/actions/One_Hand/in/Nameplates": "Cycle Nameplate Mode",
+      "/actions/One_Hand/in/HUD": "Toggle HUD",
+      "/actions/One_Hand/in/Chatbox": "Open Chatbox",
+      "/actions/One_Hand/in/Face_Mirror": "Toggle Face Mirror",
+      "/actions/One_Hand/in/Personal_Mirror": "Toggle Personal Mirror",
+      "/actions/One_Hand/in/Personal_Mirror_Lock": "Toggle Personal Mirror Grabbing",
+      "/actions/One_Hand/in/Stream_Camera": "Open Stream Camera",
+      "/actions/One_Hand/in/Earmuffs": "Toggle Earmuffs",
+      "/actions/One_Hand/in/Camera": "Open Camera",
+      "/actions/One_Hand/in/Avatar_Debug_Screen": "Toggle Avatar Debug Screen",
+      "/actions/One_Hand/in/OSC_Debug_Screen": "Toggle OSC Debug Screen",
+      "/actions/One_Hand/in/Confirm_FBT_Calibration": "Confirm FBT Calibration (use both triggers when not bound)",
+      "/actions/Global/in/Menu": "Menu (Combined)",
+      "/actions/Menu/in/Quick_Menu_Close": "Close Quick Menu",
+      "/actions/Action_Menu/in/Axis": "Radial Selection Axis",
+      "/actions/Global/in/HeadsetOnHead": "Proximity Sensor",
+      "/actions/Global/in/Interact": "Interact",
+      "/actions/Global/in/Grab": "Grab",
+      "/actions/Global/in/Move": "Move",
+      "/actions/Global/in/Jump": "Jump",
+      "/actions/Global/in/Rotate": "Rotate",
+      "/actions/Global/out/Haptic": "Haptics",
+      "/actions/One_Hand/in/Interact": "Interact",
+      "/actions/One_Hand/in/Grab": "Grab",
+      "/actions/One_Hand/in/Jump": "Jump",
+      "/actions/Menu/in/Confirm": "Confirm",
+      "/actions/Menu/in/Back": "Back",
+      "/actions/Menu/in/Tab": "Tab",
+      "/actions/Menu/in/Scroll": "Scroll Axis",
+      "/actions/Menu/in/Drag": "Drag",
+      "/actions/Action_Menu/in/Select": "Select",
+      "/actions/Action_Menu/in/Reserve_bool": "Reserve",
+      "/actions/Action_Menu/in/Reserve_vector1": "Reserve",
+      "/actions/Action_Menu/in/Reserve_vector2": "Reserve",
+      "/actions/One_Hand/in/Reserve_bool": "Reserve",
+      "/actions/One_Hand/in/Reserve_vector1": "Reserve",
+      "/actions/One_Hand/in/Reserve_vector2": "Reserve",
+      "/actions/Global/in/Disable_Gesture_Tracked": "Disable Gesture Tracked",
+      "/actions/Global/in/Gesture_Direct_Neutral_Left": "Use Gesture - Neutral (Left)",
+      "/actions/Global/in/Gesture_Direct_Fist_Left": "Use Gesture - Fist (Left)",
+      "/actions/Global/in/Gesture_Direct_Open_Left": "Use Gesture - Open (Left)",
+      "/actions/Global/in/Gesture_Direct_Peace_Left": "Use Gesture - Peace (Left)",
+      "/actions/Global/in/Gesture_Direct_Horns_Left": "Use Gesture - Horns (Left)",
+      "/actions/Global/in/Gesture_Direct_Finger_Gun_Left": "Use Gesture - Finger Gun (Left)",
+      "/actions/Global/in/Gesture_Direct_Thumbs_Up_Left": "Use Gesture - Thumbs Up (Left)",
+      "/actions/Global/in/Gesture_Direct_Point_Left": "Use Gesture - Point (Left)",
+      "/actions/Global/in/Gesture_Direct_Neutral_Right": "Use Gesture - Neutral (Right)",
+      "/actions/Global/in/Gesture_Direct_Fist_Right": "Use Gesture - Fist (Right)",
+      "/actions/Global/in/Gesture_Direct_Open_Right": "Use Gesture - Open (Right)",
+      "/actions/Global/in/Gesture_Direct_Peace_Right": "Use Gesture - Peace (Right)",
+      "/actions/Global/in/Gesture_Direct_Horns_Right": "Use Gesture - Horns (Right)",
+      "/actions/Global/in/Gesture_Direct_Finger_Gun_Right": "Use Gesture - Finger Gun (Right)",
+      "/actions/Global/in/Gesture_Direct_Thumbs_Up_Right": "Use Gesture - Thumbs Up (Right)",
+      "/actions/Global/in/Gesture_Direct_Point_Right": "Use Gesture - Point (Right)",
+      "/actions/Global/in/Gesture_Activator_Thumb": "Gesture Activator (Thumb)",
+      "/actions/Global/in/Gesture_Activator_Thumb_Inner_Upper": "Gesture Activator (Thumb, Inner-Upper)",
+      "/actions/Global/in/Gesture_Activator_Thumb_Inner_Lower": "Gesture Activator (Thumb, Inner-Lower)",
+      "/actions/Global/in/Gesture_Activator_Thumb_Outer": "Gesture Activator (Thumb, Outer)",
+      "/actions/Global/in/Gesture_Activator_Index": "Gesture Activator (Index Finger)",
+      "/actions/Global/in/Gesture_Activator_Grip": "Gesture Activator (Grip)",
+      "/actions/Global/in/Gesture_Trigger_Axis": "Gesture - Trigger Axis",
+      "/actions/Global/in/Gesture_Grip_Axis": "Gesture - Grip Axis",
+      "/actions/Global/in/Gesture_Activator_Stick_Deflection": "Gesture Activator (Stick Deflection)",
+      "/actions/Global/in/Gesture_Wheel_Left": "Gesture Wheel (Left)",
+      "/actions/Global/in/Gesture_Wheel_Select_Left": "Gesture Wheel - Select (Left)",
+      "/actions/Global/in/Gesture_Wheel_Soft_Select_Left": "Gesture Wheel - Soft Select (Left)",
+      "/actions/Global/in/Gesture_Wheel_Weight_Left": "Gesture Wheel - Weight (Left)",
+      "/actions/Global/in/Gesture_Wheel_Direct_Left": "Gesture Wheel - Direct (Left)",
+      "/actions/Global/in/Gesture_Wheel_Direct_Stay_Left": "Gesture Wheel - Direct Stay (Left)",
+      "/actions/Global/in/Gesture_Wheel_Cancel_Left": "Gesture Wheel - Cancel (Left)",
+      "/actions/Global/in/Gesture_Wheel_Cancel_Open_Left": "Gesture Wheel - Cancel Open (Left)",
+      "/actions/Global/in/Gesture_Wheel_Held_Left": "Gesture Wheel - Held (Left)",
+      "/actions/Global/in/Gesture_Wheel_Right": "Gesture Wheel (Right)",
+      "/actions/Global/in/Gesture_Wheel_Select_Right": "Gesture Wheel - Select (Right)",
+      "/actions/Global/in/Gesture_Wheel_Soft_Select_Right": "Gesture Wheel - Soft Select (Right)",
+      "/actions/Global/in/Gesture_Wheel_Weight_Right": "Gesture Wheel - Weight (Right)",
+      "/actions/Global/in/Gesture_Wheel_Direct_Right": "Gesture Wheel - Direct (Right)",
+      "/actions/Global/in/Gesture_Wheel_Direct_Stay_Right": "Gesture Wheel - Direct Stay (Right)",
+      "/actions/Global/in/Gesture_Wheel_Cancel_Right": "Gesture Wheel - Cancel (Right)",
+      "/actions/Global/in/Gesture_Wheel_Cancel_Open_Right": "Gesture Wheel - Cancel Open (Right)",
+      "/actions/Global/in/Gesture_Wheel_Held_Right": "Gesture Wheel - Held (Right)",
+      "/actions/Global/in/Disable_Gesture_Wheel_Move_Left": "Gesture Wheel - Disable Move (Left)",
+      "/actions/Global/in/Disable_Gesture_Wheel_Move_Right": "Gesture Wheel - Disable Move (Right)",
+      "/actions/Global/in/Disable_Gesture_Wheel_Rotate_Left": "Gesture Wheel - Disable Rotate (Left)",
+      "/actions/Global/in/Disable_Gesture_Wheel_Rotate_Right": "Gesture Wheel - Disable Rotate (Right)",
+      "/actions/Action_Menu/in/Gesture_Activator_Thumb": "Gesture Activator (Thumb)",
+      "/actions/Action_Menu/in/Gesture_Activator_Thumb_Inner_Upper": "Gesture Activator (Thumb, Inner-Upper)",
+      "/actions/Action_Menu/in/Gesture_Activator_Thumb_Inner_Lower": "Gesture Activator (Thumb, Inner-Lower)",
+      "/actions/Action_Menu/in/Gesture_Activator_Thumb_Outer": "Gesture Activator (Thumb, Outer)",
+      "/actions/Action_Menu/in/Gesture_Activator_Index": "Gesture Activator (Index Finger)",
+      "/actions/Action_Menu/in/Gesture_Activator_Grip": "Gesture Activator (Grip)",
+      "/actions/Action_Menu/in/Gesture_Trigger_Axis": "Gesture - Trigger Axis",
+      "/actions/Action_Menu/in/Gesture_Grip_Axis": "Gesture - Grip Axis",
+      "/actions/Action_Menu/in/Gesture_Activator_Stick_Deflection": "Gesture Activator (Stick Deflection)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Left": "Gesture Wheel (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Select_Left": "Gesture Wheel - Select (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Soft_Select_Left": "Gesture Wheel - Soft Select (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Weight_Left": "Gesture Wheel - Weight (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Direct_Left": "Gesture Wheel - Direct (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Direct_Stay_Left": "Gesture Wheel - Direct Stay (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Left": "Gesture Wheel - Cancel (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Open_Left": "Gesture Wheel - Cancel Open (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Held_Left": "Gesture Wheel - Held (Left)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Right": "Gesture Wheel (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Select_Right": "Gesture Wheel - Select (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Soft_Select_Right": "Gesture Wheel - Soft Select (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Weight_Right": "Gesture Wheel - Weight (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Direct_Right": "Gesture Wheel - Direct (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Direct_Stay_Right": "Gesture Wheel - Direct Stay (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Right": "Gesture Wheel - Cancel (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Cancel_Open_Right": "Gesture Wheel - Cancel Open (Right)",
+      "/actions/Action_Menu/in/Gesture_Wheel_Held_Right": "Gesture Wheel - Held (Right)",
+      "/actions/Action_Menu/in/Disable_Gesture_Wheel_Move_Left": "Gesture Wheel - Disable Move (Left)",
+      "/actions/Action_Menu/in/Disable_Gesture_Wheel_Move_Right": "Gesture Wheel - Disable Move (Right)",
+      "/actions/Action_Menu/in/Disable_Gesture_Wheel_Rotate_Left": "Gesture Wheel - Disable Rotate (Left)",
+      "/actions/Action_Menu/in/Disable_Gesture_Wheel_Rotate_Right": "Gesture Wheel - Disable Rotate (Right)",
+      "/actions/One_Hand/in/Gesture_Activator_Thumb": "Gesture Activator (Thumb)",
+      "/actions/One_Hand/in/Gesture_Activator_Thumb_Inner_Upper": "Gesture Activator (Thumb, Inner-Upper)",
+      "/actions/One_Hand/in/Gesture_Activator_Thumb_Inner_Lower": "Gesture Activator (Thumb, Inner-Lower)",
+      "/actions/One_Hand/in/Gesture_Activator_Thumb_Outer": "Gesture Activator (Thumb, Outer)",
+      "/actions/One_Hand/in/Gesture_Activator_Index": "Gesture Activator (Index Finger)",
+      "/actions/One_Hand/in/Gesture_Activator_Grip": "Gesture Activator (Grip)",
+      "/actions/One_Hand/in/Gesture_Trigger_Axis": "Gesture - Trigger Axis",
+      "/actions/One_Hand/in/Gesture_Grip_Axis": "Gesture - Grip Axis",
+      "/actions/One_Hand/in/Gesture_Activator_Stick_Deflection": "Gesture Activator (Stick Deflection)",
+      "/actions/One_Hand/in/Gesture_Wheel_Left": "Gesture Wheel (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Select_Left": "Gesture Wheel - Select (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Soft_Select_Left": "Gesture Wheel - Soft Select (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Weight_Left": "Gesture Wheel - Weight (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Direct_Left": "Gesture Wheel - Direct (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Direct_Stay_Left": "Gesture Wheel - Direct Stay (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Cancel_Left": "Gesture Wheel - Cancel (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Cancel_Open_Left": "Gesture Wheel - Cancel Open (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Held_Left": "Gesture Wheel - Held (Left)",
+      "/actions/One_Hand/in/Gesture_Wheel_Right": "Gesture Wheel (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Select_Right": "Gesture Wheel - Select (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Soft_Select_Right": "Gesture Wheel - Soft Select (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Weight_Right": "Gesture Wheel - Weight (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Direct_Right": "Gesture Wheel - Direct (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Direct_Stay_Right": "Gesture Wheel - Direct Stay (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Cancel_Right": "Gesture Wheel - Cancel (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Cancel_Open_Right": "Gesture Wheel - Cancel Open (Right)",
+      "/actions/One_Hand/in/Gesture_Wheel_Held_Right": "Gesture Wheel - Held (Right)",
+      "/actions/One_Hand/in/Disable_Gesture_Wheel_Move_Left": "Gesture Wheel - Disable Move (Left)",
+      "/actions/One_Hand/in/Disable_Gesture_Wheel_Move_Right": "Gesture Wheel - Disable Move (Right)",
+      "/actions/One_Hand/in/Disable_Gesture_Wheel_Rotate_Left": "Gesture Wheel - Disable Rotate (Left)",
+      "/actions/One_Hand/in/Disable_Gesture_Wheel_Rotate_Right": "Gesture Wheel - Disable Rotate (Right)",
+      "/actions/Action_Menu/in/Grab": "Grab",
+      "/actions/Action_Menu/in/Drop": "Drop (enables Auto-Hold when bound)",
+      "/actions/Drone/in/Left_Joystick": "Drone Left Joystick Control",
+      "/actions/Drone/in/Right_Joystick": "Drone Right Joystick Control",
+      "/actions/Drone/in/Self_Leveling_Mod": "Self-Leveling Modifier",
+      "/actions/Drone/in/Hold_Altitude_Mod": "Hold Altitude Modifier",
+      "/actions/Drone/in/Toggle_FPV": "Toggle First-Person View",
+      "/actions/Drone/in/Flip": "Flip Drone",
+      "/actions/Drone/in/Take_Picture": "Take Picture",
+      "/actions/Drone/in/Cycle_Flight_Preset": "Cycle Flight Preset",
+      "/actions/Drone/in/Toggle_Self_Leveling": "Toggle Self-Leveling",
+      "/actions/Drone/in/Respawn": "Respawn Drone",
+      "/actions/Drone/in/Select_Flight_Preset_Micro": "Select Micro Flight Preset",
+      "/actions/Drone/in/Select_Flight_Preset_Cinematic": "Select Cinematic Flight Preset",
+      "/actions/Drone/in/Select_Flight_Preset_Racing": "Select Racing Flight Preset",
+      "/actions/Drone/in/Select_Flight_Preset_Freestyle": "Select Freestyle Flight Preset",
+      "/actions/Global/in/Physbone_Grab_Left": "Physbone Grab Left",
+      "/actions/Global/in/Physbone_Freeze_Left": "Physbone Freeze Left",
+      "/actions/Global/in/Physbone_Grab_Right": "Physbone Grab Right",
+      "/actions/Global/in/Physbone_Freeze_Right": "Physbone Freeze Right",
+      "/actions/Global/in/Scroll": "Scroll Axis"
+    }
+  ]
+}
