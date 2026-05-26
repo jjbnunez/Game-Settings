@@ -54,11 +54,7 @@
                "path" : "/user/hand/right/input/joystick"
             },
             {
-               "inputs" : {
-                  "touch" : {
-                     "output" : "/actions/action_menu/in/gesture_activator_thumb"
-                  }
-               },
+               "inputs" : {},
                "mode" : "joystick",
                "path" : "/user/hand/left/input/joystick"
             },
@@ -262,19 +258,6 @@
             },
             {
                "inputs" : {
-                  "click" : {
-                     "output" : "/actions/global/in/grab"
-                  }
-               },
-               "mode" : "button",
-               "parameters" : {
-                  "click_activate_threshold" : "0.7",
-                  "click_deactivate_threshold" : "0.55"
-               },
-               "path" : "/user/hand/left/input/grip"
-            },
-            {
-               "inputs" : {
                   "pull" : {
                      "output" : "/actions/global/in/grip_axis"
                   }
@@ -366,20 +349,7 @@
                "path" : "/user/hand/right/input/a"
             },
             {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/global/in/udon_menu"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/b"
-            },
-            {
-               "inputs" : {
-                  "touch" : {
-                     "output" : "/actions/global/in/gesture_activator_thumb"
-                  }
-               },
+               "inputs" : {},
                "mode" : "joystick",
                "path" : "/user/hand/left/input/joystick"
             },
@@ -396,32 +366,21 @@
                "path" : "/user/hand/left/input/grip"
             },
             {
-               "inputs" : {
-                  "touch" : {
-                     "output" : "/actions/global/in/gesture_activator_thumb"
-                  }
-               },
+               "inputs" : {},
                "mode" : "button",
                "path" : "/user/hand/left/input/x"
             },
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/global/in/menu"
-                  },
-                  "touch" : {
-                     "output" : "/actions/global/in/gesture_activator_thumb"
+                     "output" : "/actions/global/in/action_menu"
                   }
                },
                "mode" : "button",
                "path" : "/user/hand/left/input/y"
             },
             {
-               "inputs" : {
-                  "touch" : {
-                     "output" : "/actions/global/in/gesture_activator_thumb"
-                  }
-               },
+               "inputs" : {},
                "mode" : "joystick",
                "path" : "/user/hand/right/input/joystick"
             },
@@ -439,20 +398,8 @@
             },
             {
                "inputs" : {
-                  "touch" : {
-                     "output" : "/actions/global/in/gesture_activator_thumb"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/a"
-            },
-            {
-               "inputs" : {
                   "click" : {
                      "output" : "/actions/global/in/menu"
-                  },
-                  "touch" : {
-                     "output" : "/actions/global/in/gesture_activator_thumb"
                   }
                },
                "mode" : "button",
@@ -483,22 +430,36 @@
                "path" : "/user/hand/right/input/trigger"
             },
             {
-               "inputs" : {
-                  "position" : {
-                     "output" : "/actions/global/in/scroll"
-                  }
-               },
-               "mode" : "joystick",
-               "path" : "/user/hand/left/input/joystick"
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/hand/right/input/joystick"
             },
             {
                "inputs" : {
-                  "position" : {
-                     "output" : "/actions/global/in/scroll"
+                  "touch" : {
+                     "output" : "/actions/global/in/gesture_activator_thumb"
                   }
                },
-               "mode" : "joystick",
-               "path" : "/user/hand/right/input/joystick"
+               "mode" : "button",
+               "path" : "/user/hand/left/input/thumbrest"
+            },
+            {
+               "inputs" : {
+                  "touch" : {
+                     "output" : "/actions/global/in/gesture_activator_thumb"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/thumbrest"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/global/in/grab"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
             }
          ]
       },
@@ -572,86 +533,6 @@
             }
          ]
       },
-      "/actions/drone" : {
-         "chords" : [
-            {
-               "inputs" : [
-                  [ "/user/hand/right/input/trigger", "held" ],
-                  [ "/user/hand/right/input/a", "single" ]
-               ],
-               "output" : "/actions/drone/in/toggle_self_leveling"
-            },
-            {
-               "inputs" : [
-                  [ "/user/hand/left/input/trigger", "held" ],
-                  [ "/user/hand/right/input/a", "single" ]
-               ],
-               "output" : "/actions/drone/in/cycle_flight_preset"
-            }
-         ],
-         "sources" : [
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/drone/in/take_picture"
-                  },
-                  "position" : {
-                     "output" : "/actions/drone/in/right_joystick"
-                  }
-               },
-               "mode" : "joystick",
-               "path" : "/user/hand/right/input/joystick"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/drone/in/toggle_fpv"
-                  },
-                  "position" : {
-                     "output" : "/actions/drone/in/left_joystick"
-                  }
-               },
-               "mode" : "joystick",
-               "path" : "/user/hand/left/input/joystick"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/drone/in/hold_altitude_mod"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/drone/in/self_leveling_mod"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/trigger"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/drone/in/flip"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/a"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/drone/in/respawn"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/a"
-            }
-         ]
-      }, 
       "/actions/one_hand" : {
          "chords" : [],
          "haptics" : [],
@@ -771,11 +652,7 @@
                "path" : "/user/hand/right/input/grip"
             },
             {
-               "inputs" : {
-                  "touch" : {
-                     "output" : "/actions/one_hand/in/gesture_activator_thumb"
-                  }
-               },
+               "inputs" : {},
                "mode" : "joystick",
                "path" : "/user/hand/left/input/joystick"
             },
@@ -810,11 +687,7 @@
                "path" : "/user/hand/left/input/y"
             },
             {
-               "inputs" : {
-                  "touch" : {
-                     "output" : "/actions/one_hand/in/gesture_activator_thumb"
-                  }
-               },
+               "inputs" : {},
                "mode" : "joystick",
                "path" : "/user/hand/right/input/joystick"
             },
@@ -871,6 +744,24 @@
                },
                "mode" : "trigger",
                "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "touch" : {
+                     "output" : "/actions/one_hand/in/gesture_activator_thumb"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/thumbrest"
+            },
+            {
+               "inputs" : {
+                  "touch" : {
+                     "output" : "/actions/one_hand/in/gesture_activator_thumb"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/thumbrest"
             }
          ]
       }
@@ -879,7 +770,7 @@
    "controller_type" : "oculus_touch",
    "description" : "Default Bindings for Meta Touch Controllers.",
    "interaction_profile" : "",
-   "name" : "VRChat Default Bindings for Meta Touch",
+   "name" : "Saved VRChat configuration for Oculus Touch Controller",
    "options" : {},
    "simulated_actions" : []
 }
